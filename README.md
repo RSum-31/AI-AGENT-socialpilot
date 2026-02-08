@@ -1,73 +1,106 @@
-# Welcome to your Lovable project
+🚀 **AI Social Media Agent**
 
-## Project info
+Automated, Brand-Aware Content Creation for LinkedIn & Instagram
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📌 **Overview**
 
-## How can I edit this code?
+AI Social Media Agent is an intelligent content generation system that helps companies automatically create on-brand, high-quality social media posts for LinkedIn and Instagram.
 
-There are several ways of editing your application.
+It analyzes existing brand assets, understands brand voice and design patterns, and generates multiple post variations with captions and visuals. The system uses agentic self-feedback loops and keeps humans in the loop for editing and refinement.
 
-**Use Lovable**
+This project was built as part of a hackathon challenge focused on real-world, scalable AI marketing automation.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🎯 **Problem Statement**
 
-Changes made via Lovable will be committed automatically to this repo.
+Creating consistent, high-quality social media content is:
 
-**Use your preferred IDE**
+Time-consuming
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Repetitive
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Hard to scale
 
-Follow these steps:
+Prone to brand inconsistency
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Most AI tools generate generic content without understanding brand identity, making them risky for marketing teams.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+💡 **Solution**
 
-# Step 3: Install the necessary dependencies.
-npm i
+Our AI Social Media Agent acts like a junior social media manager + designer by:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+✅ Understanding brand tone and visual identity
+✅ Generating multiple post variations
+✅ Running internal quality checks
+✅ Allowing human feedback and iteration
+✅ Producing post-ready content for LinkedIn & Instagram
 
-**Edit a file directly in GitHub**
+The system enables teams to scale content creation without losing brand consistency.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+✨ **Key Features**
+🧠 **Brand Understanding**
 
-**Use GitHub Codespaces**
+Infers tone, language style, and design cues from:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Existing posts
 
-## What technologies are used for this project?
+Website content
 
-This project is built with:
+Brand assets
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📝 **Automated Post Generation**
 
-## How can I deploy this project?
+Generates:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Captions
 
-## Can I connect a custom domain to my Lovable project?
+Background images
 
-Yes, you can!
+Text overlays
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+CTAs
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Creates multiple variations per post
+
+🔄 **Agentic Self-Feedback**
+
+Internal review loops for:
+
+Brand alignment
+
+Clarity
+
+Readability
+
+CTA effectiveness
+
+👩‍💻 **Human-in-the-Loop Editing**
+
+Users can:
+
+Select variations
+
+Suggest changes
+
+Regenerate improved versions
+
+📱 **Platform Optimization**
+
+Adapts content for:
+
+LinkedIn
+
+Instagram
+
+🛠️ **Tech Stack**
+
+Frontend: React + TypeScript
+
+Build Tool: Vite
+
+UI Components: shadcn-ui
+AI Integration: Prompt-based Agent System (via Lovable)
+
+Version Control: GitHub
+
+Styling: Tailwind CSS
+
